@@ -6,6 +6,7 @@ import List from './componets/List'
 import LoginForm from './componets/LoginForm'
 import MultiInputForm from './componets/MultiInputForm'
 import PrevCounter from './componets/PrevCounter'
+import CheckboxDemo from './componets/CheckboxDemo'
 
 const App = () => {
   const colors = ["red", "green"]
@@ -18,6 +19,7 @@ const App = () => {
       <LoginForm />
       <MultiInputForm/>
       <PrevCounter/>
+      <CheckboxDemo/>
     </div>
   )
 }
